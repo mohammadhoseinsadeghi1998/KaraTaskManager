@@ -3,7 +3,7 @@
 Kara is a desktop application built with Python for managing daily tasks and employees. It features a Persian user interface (RTL), Jalali date support, and Excel export capabilities.
 
 ## 📸 Screenshots
-![img_1.png](img_1.png)
+![mainWindowScreenshot.png](mainWindowScreenshot.png)
 
 ## ✨ Features
 - **Task Management:** Add, edit, delete, and track tasks.
