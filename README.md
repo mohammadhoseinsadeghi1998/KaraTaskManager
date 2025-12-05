@@ -1,4 +1,4 @@
-# Kara Task Manager | مدیریت وظایف کارا
+# Kara Task Manager
 
 Kara is a desktop application built with Python for managing daily tasks and employees. It features a Persian user interface (RTL), Jalali date support, and Excel export capabilities.
 
