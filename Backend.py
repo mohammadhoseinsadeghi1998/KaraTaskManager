@@ -10,11 +10,9 @@ def connect():
     conn = sqlite3.Connection("TODO.db")
     cursor = conn.cursor()
     cursor.execute(
-        "CREATE TABLE IF NOT EXISTS Tasks(ID integer primary key,CreatedDate text not null,TaskName text not null,Assignee text,IsDeleted text not null,Due text)")
+        "CREATE TABLE IF NOT EXISTS Tasks(ID integer primary key,CreatedDate text not null,TaskName text not null,Assignee text,Status text not null,Due text,IsDeleted integer)")
     cursor.execute(
-        "CREATE TABLE IF NOT EXISTS Employees(ID integer primary key,FirstName text not null,LastName text not null)")
-    cursor.execute(
-        "CREATE TABLE IF NOT EXISTS Person(PersonID integer primary key,FirstName text not null,LastName text not null)")
+        "CREATE TABLE IF NOT EXISTS Person(PersonID integer primary key,FirstName text not null,LastName text not null,IsDeleted integer)")
     conn.commit()
     conn.close()
 
